@@ -46,7 +46,7 @@ int main(){
     int size;
     long int* vector;
 
-    file.open("instancias-num/num.1000.4.in"); 
+    file.open("../instancias-num/num.1000.4.in"); 
     file>>size;
     vector = (long int*)malloc(sizeof(long int) * size);
     
