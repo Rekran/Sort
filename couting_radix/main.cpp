@@ -10,7 +10,7 @@ int size;
 ifstream file;
 int *vector;
 
-file.open("instancias-num/num.100000.3.in");
+file.open("../instancias-num/num.100000.3.in");
 file>>size;
 
 vector = (int*)malloc(sizeof(int) * size);
